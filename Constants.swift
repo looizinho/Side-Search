@@ -7,7 +7,7 @@
 
 import Foundation
 
-let GroupUserDefaults = UserDefaults(suiteName: "group.net.cizzuk.sidesearch")!
+let GroupUserDefaults = UserDefaults(suiteName: "group.dev.smartium.sidesearch")!
 
 extension Notification.Name {
     static let assistantDidActivate = Notification.Name("assistantDidActivate")

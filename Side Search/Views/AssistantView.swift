@@ -18,6 +18,7 @@ struct AssistantView: View {
     @State private var isKeyboardVisible = false
     
     @StateObject private var vm: AssistantViewModel
+    @ObservedObject private var userSettings = UserSettings.shared
     
     private let autoActivate: Bool
     private let useNavigationBackButton: Bool
@@ -164,6 +165,7 @@ struct AssistantView: View {
             
             Spacer(minLength: 50)
         }
+        .font(.system(size: userSettings.fontSize))
     }
     
     @ViewBuilder

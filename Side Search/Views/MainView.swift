@@ -95,8 +95,32 @@ struct MainView: View {
                     }
                 }
                 
+                // Appearance Settings
                 Section {
+                    VStack(alignment: .leading, spacing: 8) {
+                        HStack {
+                            Text("Font Size")
+                            Spacer()
+                            Text("\(Int(userSettings.fontSize)) pt")
+                                .foregroundStyle(.secondary)
+                        }
+                        
+                        Slider(
+                            value: $userSettings.fontSize,
+                            in: 12...32,
+                            step: 1
+                        ) {
+                            Text("Font Size")
+                        } minimumValueLabel: {
+                            Image(systemName: "textformat.size.smaller")
+                        } maximumValueLabel: {
+                            Image(systemName: "textformat.size.larger")
+                        }
+                    }
+                    
                     Toggle("Disable Markdown Rendering", isOn: $userSettings.disableMarkdownRendering)
+                } header: {
+                    Text("Appearance Settings")
                 }
                 
                 Section {

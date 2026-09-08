@@ -8,7 +8,7 @@
 	<true/>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.net.cizzuk.sidesearch</string>
+		<string>group.dev.smartium.sidesearch</string>
 	</array>
 </dict>
 </plist>

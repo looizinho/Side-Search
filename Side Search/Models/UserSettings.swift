@@ -25,6 +25,7 @@ final class UserSettings: ObservableObject {
         static let standbyInBackground = "standbyInBackground"
         static let soundEffectsMode = "soundEffectsMode"
         static let disableMarkdownRendering = "disableMarkdownRendering"
+        static let fontSize = "fontSize"
     }
 
     @Published var currentAssistant: AssistantType = {
@@ -183,6 +184,17 @@ final class UserSettings: ObservableObject {
     @Published var disableMarkdownRendering: Bool = UserDefaults.standard.bool(forKey: Keys.disableMarkdownRendering) {
         didSet {
             UserDefaults.standard.set(disableMarkdownRendering, forKey: Keys.disableMarkdownRendering)
+        }
+    }
+
+    @Published var fontSize: Double = {
+        if UserDefaults.standard.object(forKey: Keys.fontSize) != nil {
+            return UserDefaults.standard.double(forKey: Keys.fontSize)
+        }
+        return 17.0
+    }() {
+        didSet {
+            UserDefaults.standard.set(fontSize, forKey: Keys.fontSize)
         }
     }
 }

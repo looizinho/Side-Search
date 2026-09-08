@@ -87,16 +87,16 @@ class SearchEnginePresets {
         
         normalCSEs.append(contentsOf:[
             Preset(
-                name: "Google",
-                url: "https://www.google.com/search?q=%s&client=safari",
-            ),
-            Preset(
-                name: "GitHub Repositories",
+                name: "GitHub",
                 url: "https://github.com/search?q=%s&type=repositories",
             ),
             Preset(
-                name: "GitHub Users",
-                url: "https://github.com/search?q=%s&type=users",
+                name: "Skills",
+                url: "https://www.skills.sh/?q=%s",
+            ),
+            Preset(
+                name: "Google",
+                url: "https://www.google.com/search?q=%s&client=safari",
             ),
             Preset(
                 name: "Bing",

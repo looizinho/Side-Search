@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+  
 struct AppleFoundationAssistantSettingsView: View {
     @State private var assistantModel = AppleFoundationAssistantModel.load()
     
