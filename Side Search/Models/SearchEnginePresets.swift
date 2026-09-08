@@ -91,6 +91,14 @@ class SearchEnginePresets {
                 url: "https://www.google.com/search?q=%s&client=safari",
             ),
             Preset(
+                name: "GitHub Repositories",
+                url: "https://github.com/search?q=%s&type=repositories",
+            ),
+            Preset(
+                name: "GitHub Users",
+                url: "https://github.com/search?q=%s&type=users",
+            ),
+            Preset(
                 name: "Bing",
                 url: "https://www.bing.com/search?q=%s",
             ),
