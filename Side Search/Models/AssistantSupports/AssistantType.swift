@@ -26,7 +26,7 @@ enum AssistantType: String, CaseIterable, Codable, AppEnum {
         .urlBased: "URL Based Assistant",
         .appleFoundation: "Apple Foundation Models",
         .geminiAPI: "Google Gemini API",
-        .sideBridge: "Side Bridge"
+        .sideBridge: "Bridge"
     ]
     
     var displayName: LocalizedStringResource {

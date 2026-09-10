@@ -133,16 +133,22 @@
     },
     "Apple Foundation Models" : {
       "localizations" : {
-        "ja" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apple Foundation Models"
+            "value" : "On-Device"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "On-Device"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Apple Foundation Models"
+            "state" : "needs_review",
+            "value" : "On-Device"
           }
         }
       }
@@ -306,6 +312,9 @@
           }
         }
       }
+    },
+    "Bridge" : {
+
     },
     "Build time" : {
       "comment" : "A label for the build time of the app.",
@@ -1058,16 +1067,22 @@
     },
     "Google Gemini API" : {
       "localizations" : {
-        "ja" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Google Gemini API"
+            "value" : "Gemini"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Gemini"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "API do Google Gemini"
+            "state" : "needs_review",
+            "value" : "Gemini"
           }
         }
       }
@@ -1927,9 +1942,6 @@
         }
       }
     },
-    "Side Bridge" : {
-      "shouldTranslate" : false
-    },
     "Side Button Tip" : {
       "localizations" : {
         "ja" : {
@@ -2467,16 +2479,22 @@
     },
     "URL Based Assistant" : {
       "localizations" : {
-        "ja" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "URL Search"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "needs_review",
             "value" : "URLベースアシスタント"
           }
         },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Assistente Baseado em URL"
+            "value" : "Busca p/ URL"
           }
         }
       }
@@ -2492,7 +2510,7 @@
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Opção de Abertura de URLs"
+            "value" : "Opção de Abertura de URL"
           }
         }
       }
